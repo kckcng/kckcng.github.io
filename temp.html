@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			.header
+			{
+				text-align: center;
+				font-size: xx-large;
+			}
+			.right
+			{
+				text-align: right;
+				font-size: small;
+			}
+			img
+			{
+				width: 40%;
+				height: 40%;
+			}
+		</style>
+
+		<title>
+			KC's Personal Website
+		</title>
+	</head>
+
+	<body>
+		<div class="right">
+			<button id="white" >Light</button>
+			<button id="dark">Dark</button>
+			<script type="text/javascript">
+				let body=document.querySelector('body');
+				document.querySelector("#white").onclick = function() {
+					body.style.backgroundColor = "white";
+					body.style.color = "black";
+				}
+				document.querySelector("#dark").onclick = function() {
+					body.style.backgroundColor = "black";
+					body.style.color = "white";
+				}
+			</script>
+		</div>
+
+		<header class="header"> <b> KC's Personal Webiste </b> </header>
+
+		<br>
+
+		<div style="text-align: center;">
+			<img src="construction.jpg" alt="Under construction" title="Coming soon...">
+
+			<br> 
+
+			<marquee style="text-align: center;" width= "300" behavior="scroll" direction="left" scrollamount="3">🙇 Webiste Under Construction. Please come back later... 🙇</marquee>
+		</div>
+
+		<br>
+		<br>
+
+		<div class="right">
+			Last updated: 15 Sep 2020
+		</div>
+
+	</body>
+</html>
