@@ -2,28 +2,20 @@
 <html>
 	<head>
 		<style type="text/css">
-			@media (prefers-color-scheme: light) {
-			    body {
-			        background-color: white;
-			        color: black;
-			    }
-			}
-			@media (prefers-color-scheme: dark) {
-			    body {
-			        background-color: #212121;
-			        color: white;
-			    }
-			}
-			.header {
+			.header
+			{
 				text-align: center;
 				font-size: xx-large;
 			}
-			.right {
+			.right
+			{
 				text-align: right;
 				font-size: small;
 			}
-			img {
-				width: 60%;
+			img
+			{
+				width: 40%;
+				height: 40%;
 			}
 		</style>
 
@@ -43,7 +35,7 @@
 					body.style.color = "black";
 				}
 				document.querySelector("#dark").onclick = function() {
-					body.style.backgroundColor = "#212121";
+					body.style.backgroundColor = "black";
 					body.style.color = "white";
 				}
 			</script>
@@ -54,20 +46,18 @@
 		<br>
 
 		<div style="text-align: center;">
-
-			<marquee style="text-align: center; background-color:rgb(255, 0, 0, 0.6);" width="60%" behavior="scroll" direction="left" scrollamount="3"> 15 Sep 2020: 🙇 Webiste Under Construction. Please come back later... 🙇</marquee>
-
-			<br> <br> 
-
 			<img src="construction.JPG" alt="Under construction" title="Coming soon...">
-			
+
+			<br> 
+
+			<marquee style="text-align: center;" width= "300" behavior="scroll" direction="left" scrollamount="3">🙇 Webiste Under Construction. Please come back later... 🙇</marquee>
 		</div>
 
 		<br>
 		<br>
 
 		<div class="right">
-			Last updated: 29 Sep 2020
+			Last updated: 15 Sep 2020
 		</div>
 
 	</body>
