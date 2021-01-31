@@ -169,11 +169,11 @@ $(document).ready(function () {
 
     /****************** Magnific Popup ******************/
 
-    $('.tm-gallery').magnificPopup({
+    $('.tm-gallery2').magnificPopup({
         delegate: 'a',
         type: 'image',
         gallery: {
-            enabled: true
+            enabled: false
         }
       });
 

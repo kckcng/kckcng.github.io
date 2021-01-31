@@ -234,7 +234,7 @@ hr { border-top: 4px solid #CCC; }
 	position: relative;
 	margin: 0 -10px;
 	list-style: none;
-	text-align: center;
+	text-align: left;
 	overflow: hidden;
 }
 
@@ -735,4 +735,48 @@ select:not([multiple]) {
 		width: 100%;
 		margin-left: 0;
 	}
+}
+
+/* Experience section rows and columns */
+/* Create two unequal columns that floats next to each other */
+.exp-column {
+	float: left;
+	padding: 10px;
+	line-height: 1.6;
+}
+
+.left {
+	width: 75%;
+}
+
+.right {
+	width: 25%;
+}
+
+.right img {
+	max-width: 100%;
+}
+
+
+/* Clear floats after the columns */
+.exp-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.exp-position {
+	color: #D5B895;
+}
+
+.exp-date {
+	color: #A67A5B;
+}
+
+.exp-type {
+	color: #795534;
+}
+
+.exp-hashtag {
+	color: #006699;
 }
